@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "Movies.Application\Movies.Application.csproj", "{E6D8FAF8-F2AF-4A9A-BC48-1B05712C9892}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Infrastructure", "Movies.Infrastructure\Movies.Infrastructure.csproj", "{E6F6BDE1-2A52-4E47-963C-957546CD7048}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1BA4BFC3-2BA4-41CA-BCBE-E62B80CD007B} = {1BA4BFC3-2BA4-41CA-BCBE-E62B80CD007B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Domain", "Movies.Domain\Movies.Domain.csproj", "{1BA4BFC3-2BA4-41CA-BCBE-E62B80CD007B}"
 EndProject
